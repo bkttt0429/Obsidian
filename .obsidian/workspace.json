@@ -184,6 +184,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "smart-composer:Open smart composer": false,
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
