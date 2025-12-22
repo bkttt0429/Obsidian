@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "d866b71f05cf6eac",
+        "id": "10e4e7d39811dbf7",
         "type": "tabs",
         "children": [
           {
-            "id": "0cd7acd584bb98ed",
+            "id": "b104afecddf881a6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "網路筆記/網路參考模型.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -198,20 +198,20 @@
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
       "templates:插入模板": false,
-      "bases:建立新的 base": false,
+      "bases:建立新的 base": true,
       "obsidian-excalidraw-plugin:新建繪圖檔案": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
       "smart-composer:Open smart composer": false,
-      "markdown-importer:開啟 Markdown 格式轉換器": false
+      "markdown-importer:開啟 Markdown 格式轉換器": true
     }
   },
-  "active": "0cd7acd584bb98ed",
+  "active": "70fa7f4b33b00d9b",
   "lastOpenFiles": [
+    "網路筆記/網路參考模型.md",
     "網路筆記/計算機網路的概念.md",
     "網路筆記/資安.md",
     "網路筆記/錯誤考題回顧.md",
-    "網路筆記/網路參考模型.md",
     "網路筆記/assets/LAN3.png",
     "網路筆記/assets/e8e33625-be8b-420c-bf53-acaaa07d3f9c.png",
     "網路筆記/assets/fargment.png",
