@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "網路筆記/網路參考模型.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -48,6 +48,16 @@
             }
           },
           {
+            "id": "458f63087e781cab",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          },
+          {
             "id": "c00377057af15d3f",
             "type": "leaf",
             "state": {
@@ -65,16 +75,6 @@
             }
           },
           {
-            "id": "458f63087e781cab",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "書籤"
-            }
-          },
-          {
             "id": "3575020a7e8a98c9",
             "type": "leaf",
             "state": {
@@ -89,8 +89,7 @@
               "title": "網路參考模型 的大綱"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -175,12 +174,22 @@
               "icon": "lucide-archive",
               "title": "所有屬性"
             }
+          },
+          {
+            "id": "6076a3603e04246a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 429.5
+    "width": 325.5
   },
   "left-ribbon": {
     "hiddenItems": {
