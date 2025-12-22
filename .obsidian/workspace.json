@@ -11,14 +11,12 @@
             "id": "0cd7acd584bb98ed",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "hello.md",
-                "mode": "source",
-                "source": false
+                "file": "網路筆記/image 1.png"
               },
-              "icon": "lucide-file",
-              "title": "hello"
+              "icon": "lucide-image",
+              "title": "image 1"
             }
           }
         ]
@@ -174,17 +172,26 @@
               "icon": "git-pull-request",
               "title": "Source Control"
             }
+          },
+          {
+            "id": "70fa7f4b33b00d9b",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Smart composer chat"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 203.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "smart-composer:Open smart composer": false,
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
@@ -194,14 +201,33 @@
       "bases:建立新的 base": false,
       "obsidian-excalidraw-plugin:新建繪圖檔案": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "smart-composer:Open smart composer": false
     }
   },
-  "active": "a28d27fa3424a850",
+  "active": "0cd7acd584bb98ed",
   "lastOpenFiles": [
+    "網路筆記/ham2.png",
+    "網路筆記/ham1.png",
+    "網路筆記/資安 2acc1f61b25b80328bf0e14b47265a30.md",
+    "網路筆記/網路參考模型 244c1f61b25b800bbdf5fbd564d4b370.md",
+    "網路筆記/編碼.png",
+    "網路筆記/計算機網路的概念 237c1f61b25b80529cdaff58dbbd05eb.md",
+    "hello.md",
+    "網路筆記/錯誤考題回顧 2a4c1f61b25b80bb9523dbf978ce0622.md",
+    "網路筆記/調製技術.png",
+    "網路筆記/計算機網路筆記 237c1f61b25b8008a42cf92f77da9421_all.csv",
+    "網路筆記/計算機網路筆記 237c1f61b25b8008a42cf92f77da9421.csv",
+    "網路筆記/LAN3.png",
+    "網路筆記/image.png",
+    "網路筆記/image 99.png",
+    "網路筆記/image 98.png",
+    "網路筆記/image 97.png",
+    "網路筆記/image 96.png",
+    "網路筆記/image 95.png",
+    "網路筆記",
     "新增 文字文件.txt",
     "新增資料夾",
-    "hello.md",
     "未命名.base"
   ]
 }

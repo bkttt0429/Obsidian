@@ -12,7 +12,7 @@
     {
       "type": "gemini",
       "id": "gemini",
-      "apiKey": "AIzaSyBPWOgipCpdo9wjL0_fNi6LcFt9QwOdGg4"
+      "apiKey": "AIzaSyCSjk0j8fDmq2RPLt0a-EtjdWDJqsiWQlo"
     },
     {
       "type": "deepseek",
@@ -234,6 +234,14 @@
       "model": "gemini-3-pro-preview",
       "promptLevel": 1,
       "enable": true
+    },
+    {
+      "providerId": "gemini",
+      "providerType": "gemini",
+      "id": "gemini-3-flash-preview",
+      "model": "gemini-3-flash-preview",
+      "promptLevel": 1,
+      "enable": true
     }
   ],
   "embeddingModels": [
@@ -280,7 +288,7 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "claude-sonnet-4.5",
+  "chatModelId": "gemini-3-flash-preview",
   "applyModelId": "gpt-4.1-mini",
   "embeddingModelId": "openai/text-embedding-3-small",
   "systemPrompt": "",
