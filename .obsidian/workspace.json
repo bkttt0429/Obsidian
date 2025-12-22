@@ -15,7 +15,7 @@
               "state": {
                 "file": "網路筆記/網路參考模型.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
               "title": "網路參考模型"
@@ -108,20 +108,6 @@
             }
           },
           {
-            "id": "063ccf9309eed0d8",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "網路筆記/計算機網路的概念.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "計算機網路的概念 的對外連結"
-            }
-          },
-          {
             "id": "db2f51449516d142",
             "type": "leaf",
             "state": {
@@ -151,21 +137,6 @@
             }
           },
           {
-            "id": "68afb6429ef8245c",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "hello.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "hello 的大綱"
-            }
-          },
-          {
             "id": "6477c3d0c0a3e7d7",
             "type": "leaf",
             "state": {
@@ -184,9 +155,38 @@
               "icon": "wand-sparkles",
               "title": "Smart composer chat"
             }
+          },
+          {
+            "id": "17bb39ca5043deca",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "網路筆記/網路參考模型.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "網路參考模型 的對外連結"
+            }
+          },
+          {
+            "id": "3575020a7e8a98c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "網路筆記/網路參考模型.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "網路參考模型 的大綱"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -204,7 +204,8 @@
       "obsidian-excalidraw-plugin:新建繪圖檔案": false,
       "templater-obsidian:Templater": false,
       "obsidian-git:Open Git source control": false,
-      "smart-composer:Open smart composer": false
+      "smart-composer:Open smart composer": false,
+      "markdown-importer:開啟 Markdown 格式轉換器": false
     }
   },
   "active": "0cd7acd584bb98ed",
@@ -213,16 +214,16 @@
     "網路筆記/網路參考模型.md",
     "網路筆記/資安.md",
     "網路筆記/計算機網路的概念.md",
+    "網路筆記/assets/LAN3.png",
+    "網路筆記/assets/e8e33625-be8b-420c-bf53-acaaa07d3f9c.png",
+    "網路筆記/assets/fargment.png",
+    "網路筆記/assets/2ece2909-0524-473c-a42a-14baa8606781.png",
+    "網路筆記/assets/9cc42ab7-42c9-46d2-933b-8d799dbcec9a.png",
+    "網路筆記/assets/29e4ea86-233f-46df-a38f-638ccd1bbdf5.png",
+    "網路筆記/assets/52e4941e-7fcf-4166-bde3-9480754f8b26.png",
+    "網路筆記/assets/3015b5c1-b903-417c-92b8-774a22ff0bf9.png",
     "網路筆記/LAN3.png",
     "網路筆記/assets/image 12.png",
-    "網路筆記/assets/image 11.png",
-    "網路筆記/assets/image 103.png",
-    "網路筆記/assets/image 102.png",
-    "網路筆記/assets/image 101.png",
-    "網路筆記/assets/image 100.png",
-    "網路筆記/assets/image 10.png",
-    "網路筆記/assets/image 1.png",
-    "網路筆記/assets/ham2.png",
     "網路筆記/assets",
     "hello.md",
     "網路筆記/計算機網路筆記 237c1f61b25b8008a42cf92f77da9421_all.csv",
