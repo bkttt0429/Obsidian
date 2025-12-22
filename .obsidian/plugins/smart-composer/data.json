@@ -301,10 +301,75 @@
     "includePatterns": []
   },
   "mcp": {
-    "servers": []
+    "servers": [
+      {
+        "id": "obsidian_MCP",
+        "parameters": {
+          "command": "uvx",
+          "args": [
+            "mcp-obsidian"
+          ],
+          "env": {
+            "OBSIDIAN_VAULT_PATH": "D:/obsidan/Note/obsidian",
+            "OBSIDIAN_API_KEY": "eb91cb147b4101354489d153dc01923310ba3514a0f4664292a9965adcc73c9b"
+          }
+        },
+        "enabled": true,
+        "toolOptions": {
+          "obsidian_list_files_in_dir": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_list_files_in_vault": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_get_file_contents": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_simple_search": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_patch_content": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_append_content": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_delete_file": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_complex_search": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_batch_get_file_contents": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_get_periodic_note": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_get_recent_periodic_notes": {
+            "disabled": false,
+            "allowAutoExecution": false
+          },
+          "obsidian_get_recent_changes": {
+            "disabled": false,
+            "allowAutoExecution": false
+          }
+        }
+      }
+    ]
   },
   "chatOptions": {
-    "includeCurrentFileContent": true,
+    "includeCurrentFileContent": false,
     "enableTools": true,
     "maxAutoIterations": 1
   }
