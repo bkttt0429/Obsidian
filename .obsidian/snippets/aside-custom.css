@@ -1,0 +1,10 @@
+/* 讓 aside 標籤看起來像個側邊筆記盒 */
+aside {
+    background-color: var(--background-secondary);
+    border-left: 4px solid var(--interactive-accent);
+    padding: 15px;
+    margin: 10px 0;
+    font-style: italic;
+    font-size: 0.9em;
+    border-radius: 4px;
+}

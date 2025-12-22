@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "檔案瀏覽器"
@@ -210,10 +210,10 @@
   },
   "active": "0cd7acd584bb98ed",
   "lastOpenFiles": [
+    "網路筆記/計算機網路的概念.md",
+    "網路筆記/資安.md",
     "網路筆記/錯誤考題回顧.md",
     "網路筆記/網路參考模型.md",
-    "網路筆記/資安.md",
-    "網路筆記/計算機網路的概念.md",
     "網路筆記/assets/LAN3.png",
     "網路筆記/assets/e8e33625-be8b-420c-bf53-acaaa07d3f9c.png",
     "網路筆記/assets/fargment.png",
