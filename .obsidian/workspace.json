@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "網路筆記/網路參考模型.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"aliases\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,102 +73,6 @@
               "icon": "lucide-bookmark",
               "title": "書籤"
             }
-          }
-        ]
-      }
-    ],
-    "direction": "horizontal",
-    "width": 300
-  },
-  "right": {
-    "id": "86411ad6991e0cde",
-    "type": "split",
-    "children": [
-      {
-        "id": "a169d537edd56778",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "52c9fae8ed60d42c",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "網路筆記/計算機網路的概念.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "計算機網路的概念 的反向連結"
-            }
-          },
-          {
-            "id": "db2f51449516d142",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "標籤"
-            }
-          },
-          {
-            "id": "15221082ac3cbcd2",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-archive",
-              "title": "所有屬性"
-            }
-          },
-          {
-            "id": "6477c3d0c0a3e7d7",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
-          },
-          {
-            "id": "70fa7f4b33b00d9b",
-            "type": "leaf",
-            "state": {
-              "type": "smtcmp-chat-view",
-              "state": {},
-              "icon": "wand-sparkles",
-              "title": "Smart composer chat"
-            }
-          },
-          {
-            "id": "17bb39ca5043deca",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "網路筆記/網路參考模型.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "網路參考模型 的對外連結"
-            }
           },
           {
             "id": "3575020a7e8a98c9",
@@ -186,14 +90,101 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 203.5
+    "width": 300
+  },
+  "right": {
+    "id": "86411ad6991e0cde",
+    "type": "split",
+    "children": [
+      {
+        "id": "a169d537edd56778",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "70fa7f4b33b00d9b",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Smart composer chat"
+            }
+          },
+          {
+            "id": "dd8352683f795a51",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "網路筆記/網路參考模型.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "網路參考模型 的反向連結"
+            }
+          },
+          {
+            "id": "98bdf715bb7152a3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "網路筆記/網路參考模型.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "網路參考模型 的對外連結"
+            }
+          },
+          {
+            "id": "ea9f95019f618c0e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "標籤"
+            }
+          },
+          {
+            "id": "163ef753c29647ca",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "所有屬性"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 429.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
@@ -201,9 +192,10 @@
       "bases:建立新的 base": true,
       "obsidian-excalidraw-plugin:新建繪圖檔案": false,
       "templater-obsidian:Templater": false,
-      "obsidian-git:Open Git source control": false,
+      "obsidian-git:Open Git source control": true,
       "smart-composer:Open smart composer": false,
-      "markdown-importer:開啟 Markdown 格式轉換器": true
+      "markdown-importer:開啟 Markdown 格式轉換器": true,
+      "command-palette:開啟命令面板": false
     }
   },
   "active": "b104afecddf881a6",

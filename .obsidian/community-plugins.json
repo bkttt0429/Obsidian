@@ -3,8 +3,11 @@
   "dataview",
   "templater-obsidian",
   "obsidian-git",
-  "obsidian-style-settings",
   "smart-composer",
   "obsidian-local-rest-api",
-  "obsidian-minimal-settings"
+  "obsidian-minimal-settings",
+  "table-editor-obsidian",
+  "editing-toolbar",
+  "obsidian-icon-folder",
+  "obsidian-outliner"
 ]
