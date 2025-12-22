@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "作業系統/內存管理.md",
+                "file": "網路筆記/網路參考模型.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "內存管理"
+              "title": "網路參考模型"
             }
           }
         ]
@@ -80,16 +80,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "網路筆記/錯誤考題回顧.md",
+                "file": "網路筆記/網路參考模型.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "錯誤考題回顧 的大綱"
+              "title": "網路參考模型 的大綱"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -185,8 +186,7 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -208,8 +208,9 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "b104afecddf881a6",
+  "active": "70fa7f4b33b00d9b",
   "lastOpenFiles": [
+    "作業系統/內存管理.md",
     "作業系統/文件管理.md",
     "作業系統/設備管理.md",
     "作業系統/進程與線程.md",
@@ -222,7 +223,6 @@
     "計算機概論/數據表示和運算.md",
     "計算機概論/計算機組成.md",
     "計算機概論/存储系统.md",
-    "作業系統/內存管理.md",
     "網路筆記/網路參考模型.md",
     "作業系統/assets/VMM.png",
     "作業系統/assets/image.png",

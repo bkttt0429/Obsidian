@@ -12,7 +12,7 @@
     {
       "type": "gemini",
       "id": "gemini",
-      "apiKey": "AIzaSyCSjk0j8fDmq2RPLt0a-EtjdWDJqsiWQlo"
+      "apiKey": "AIzaSyC0DCCdee27nWaeG6X7DWRN0ZDuXTo0dWM"
     },
     {
       "type": "deepseek",
@@ -289,7 +289,7 @@
     }
   ],
   "chatModelId": "gemini-3-flash-preview",
-  "applyModelId": "gpt-4.1-mini",
+  "applyModelId": "gemini-3-pro",
   "embeddingModelId": "openai/text-embedding-3-small",
   "systemPrompt": "",
   "ragOptions": {
