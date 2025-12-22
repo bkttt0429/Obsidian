@@ -13,10 +13,10 @@
             "state": {
               "type": "image",
               "state": {
-                "file": "網路筆記/image 1.png"
+                "file": "網路筆記/LAN3.png"
               },
               "icon": "lucide-image",
-              "title": "image 1"
+              "title": "LAN3"
             }
           }
         ]
@@ -92,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hello.md",
+                "file": "網路筆記/LAN3.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "hello 的反向連結"
+              "title": "LAN3 的反向連結"
             }
           },
           {
@@ -183,8 +183,7 @@
               "title": "Smart composer chat"
             }
           }
-        ],
-        "currentTab": 6
+        ]
       }
     ],
     "direction": "horizontal",
@@ -205,26 +204,25 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "0cd7acd584bb98ed",
+  "active": "a28d27fa3424a850",
   "lastOpenFiles": [
+    "hello.md",
+    "網路筆記/image 102.png",
+    "網路筆記/LAN3.png",
+    "網路筆記/3015b5c1-b903-417c-92b8-774a22ff0bf9.png",
+    "網路筆記/計算機網路的概念.md",
+    "網路筆記/錯誤考題回顧.md",
+    "網路筆記/資安.md",
+    "網路筆記/網路參考模型.md",
+    "網路筆記/image 1.png",
     "網路筆記/ham2.png",
     "網路筆記/ham1.png",
-    "網路筆記/資安 2acc1f61b25b80328bf0e14b47265a30.md",
-    "網路筆記/網路參考模型 244c1f61b25b800bbdf5fbd564d4b370.md",
     "網路筆記/編碼.png",
-    "網路筆記/計算機網路的概念 237c1f61b25b80529cdaff58dbbd05eb.md",
-    "hello.md",
-    "網路筆記/錯誤考題回顧 2a4c1f61b25b80bb9523dbf978ce0622.md",
     "網路筆記/調製技術.png",
     "網路筆記/計算機網路筆記 237c1f61b25b8008a42cf92f77da9421_all.csv",
     "網路筆記/計算機網路筆記 237c1f61b25b8008a42cf92f77da9421.csv",
-    "網路筆記/LAN3.png",
     "網路筆記/image.png",
     "網路筆記/image 99.png",
-    "網路筆記/image 98.png",
-    "網路筆記/image 97.png",
-    "網路筆記/image 96.png",
-    "網路筆記/image 95.png",
     "網路筆記",
     "新增 文字文件.txt",
     "新增資料夾",
