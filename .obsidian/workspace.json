@@ -14,8 +14,8 @@
               "type": "markdown",
               "state": {
                 "file": "網路筆記/網路參考模型.md",
-                "mode": "source",
-                "source": false
+                "mode": "preview",
+                "source": true
               },
               "icon": "lucide-file",
               "title": "網路參考模型"
