@@ -290,7 +290,7 @@
   ],
   "chatModelId": "gemini-3-flash-preview",
   "applyModelId": "gemini-3-pro",
-  "embeddingModelId": "openai/text-embedding-3-small",
+  "embeddingModelId": "gemini/text-embedding-004",
   "systemPrompt": "",
   "ragOptions": {
     "chunkSize": 1000,
@@ -369,8 +369,8 @@
     ]
   },
   "chatOptions": {
-    "includeCurrentFileContent": false,
+    "includeCurrentFileContent": true,
     "enableTools": true,
-    "maxAutoIterations": 1
+    "maxAutoIterations": 5
   }
 }
