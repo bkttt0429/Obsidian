@@ -4,17 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "5acc8f913b5b299d",
+        "id": "aaa9af2c4036e920",
         "type": "tabs",
         "children": [
           {
-            "id": "5efea38a9ba309b9",
+            "id": "c1c2b76ad86950b9",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {},
-              "icon": "lucide-git-fork",
-              "title": "關聯圖檢視"
+              "icon": "lucide-file",
+              "title": "新分頁"
             }
           }
         ]
@@ -213,8 +213,10 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "5efea38a9ba309b9",
+  "active": "c1c2b76ad86950b9",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "未命名.base",
     "未命名.canvas",
     "資料結構/資料結構考題.md",
     "資料結構/圖.md",
@@ -258,8 +260,6 @@
     "作業系統",
     "計算機概論/assets",
     "計算機概論/organize_images_cs.py",
-    "計算機概論/計算機組成原理 247c1f61b25b80d98db6c3b3a21894fc_all.csv",
-    "計算機概論/計算機組成原理 247c1f61b25b80d98db6c3b3a21894fc.csv",
-    "資料結構/線性表-Linear List.md"
+    "計算機概論/計算機組成原理 247c1f61b25b80d98db6c3b3a21894fc_all.csv"
   ]
 }
