@@ -4,21 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "525e17cf26771218",
+        "id": "f42424c98f1b9fb1",
         "type": "tabs",
         "children": [
           {
-            "id": "b36bdd2b2d891109",
+            "id": "d9e5726c265fe5eb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "網路筆記/錯誤考題回顧.md",
-                "mode": "preview",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "錯誤考題回顧"
+              "title": "新分頁"
             }
           }
         ]
@@ -216,8 +212,9 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "b36bdd2b2d891109",
+  "active": "70fa7f4b33b00d9b",
   "lastOpenFiles": [
+    "網路筆記/錯誤考題回顧.md",
     "資料結構/資料結構考題.md",
     "未命名.base",
     "conflict-files-obsidian-git.md",
@@ -235,7 +232,6 @@
     "網路筆記/資安.md",
     "Excalidraw/Drawing 2025-12-23 02.34.58.excalidraw.md",
     "Excalidraw",
-    "網路筆記/錯誤考題回顧.md",
     "作業系統/文件管理.md",
     "作業系統/設備管理.md",
     "作業系統/進程與線程.md",
