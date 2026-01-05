@@ -1,0 +1,22 @@
+/* 啟用垂直調整大小的容器 */
+.resizable-iframe-container {
+    resize: vertical;
+    overflow: auto;
+    /* 必須設為 auto 或 hidden 才能啟用 resize */
+    border: 1px solid var(--background-modifier-border);
+    /* 加上邊框讓範圍更明顯 */
+    border-radius: 1rem;
+    padding: 0;
+    margin-bottom: 1em;
+    background: var(--background-primary);
+    min-height: 200px;
+    display: block;
+}
+
+/* 讓內部的 iframe 填滿容器 */
+.resizable-iframe-container iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+    display: block;
+}
