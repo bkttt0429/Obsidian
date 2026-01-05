@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "39f6ac9531db794a",
+            "id": "f27da4e3c40db911",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -196,12 +196,12 @@
               "title": "樹 的對外連結"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 366.5,
-    "collapsed": true
+    "width": 366.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,7 +219,7 @@
       "command-palette:開啟命令面板": false
     }
   },
-  "active": "28d5cba50d053357",
+  "active": "f27da4e3c40db911",
   "lastOpenFiles": [
     "assign_user_images.py",
     "資料結構/assets/huffman/huffman_04_entropy.png",

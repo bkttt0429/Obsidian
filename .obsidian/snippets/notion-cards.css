@@ -1,0 +1,18 @@
+/* 簡單的卡片樣式 */
+.notion-card {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+}
+.notion-card a {
+    border: 1px solid var(--background-modifier-border);
+    padding: 15px;
+    border-radius: 8px;
+    text-decoration: none !important;
+    display: block; /* Ensure the link takes up the block for padding to work nicely */
+    transition: transform 0.2s;
+}
+.notion-card a:hover {
+    transform: translateY(-5px);
+    background: var(--background-secondary);
+}

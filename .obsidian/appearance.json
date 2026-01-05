@@ -1,4 +1,6 @@
 {
   "theme": "obsidian",
-  "enabledCssSnippets": []
+  "enabledCssSnippets": [
+    "notion-cards"
+  ]
 }
