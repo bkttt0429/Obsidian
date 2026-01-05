@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "31286a11b5d40440",
+            "id": "5ce53c85f93b92d1",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -221,6 +221,7 @@
   },
   "active": "28d5cba50d053357",
   "lastOpenFiles": [
+    "final_huffman_repair.py",
     "repair_huffman.py",
     "truly_fix_huffman.py",
     "final_huffman_fix_v2.py",
@@ -240,7 +241,6 @@
     "資料結構/assets/huffman/AF2bZyjKMgp8hYtrz8uwlAs5nm2p_PlQ7vIqFy1VAru7NqEk7G.jpg",
     "資料結構/assets/huffman",
     "download_huffman_assets.py",
-    "Tags",
     "資料結構/樹.md",
     "huffman_files/unnamed.jpg",
     "資料結構/資料結構考題.md",
