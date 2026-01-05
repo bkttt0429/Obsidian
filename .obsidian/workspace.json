@@ -31,11 +31,26 @@
     "type": "split",
     "children": [
       {
-        "id": "2a40624401681dfd",
+        "id": "6eb67d399e04ea7c",
         "type": "tabs",
         "children": [
           {
-            "id": "a28d27fa3424a850",
+            "id": "3575020a7e8a98c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "資料結構/樹.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "樹 的大綱"
+            }
+          },
+          {
+            "id": "a8fc3543d95fb7f9",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -48,17 +63,7 @@
             }
           },
           {
-            "id": "458f63087e781cab",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {},
-              "icon": "lucide-bookmark",
-              "title": "書籤"
-            }
-          },
-          {
-            "id": "c00377057af15d3f",
+            "id": "41f58b77aed55757",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -75,20 +80,27 @@
             }
           },
           {
-            "id": "3575020a7e8a98c9",
+            "id": "a5490d1499b3b503",
             "type": "leaf",
             "state": {
-              "type": "outline",
-              "state": {
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "大綱"
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "書籤"
+            }
+          },
+          {
+            "id": "31286a11b5d40440",
+            "type": "leaf",
+            "state": {
+              "type": "mk-path-view",
+              "state": {},
+              "icon": "layout-grid",
+              "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -110,39 +122,6 @@
               "state": {},
               "icon": "wand-sparkles",
               "title": "Smart composer chat"
-            }
-          },
-          {
-            "id": "dd8352683f795a51",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "網路筆記/網路參考模型.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "網路參考模型 的反向連結"
-            }
-          },
-          {
-            "id": "98bdf715bb7152a3",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "網路筆記/網路參考模型.md",
-                "linksCollapsed": true,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "網路參考模型 的對外連結"
             }
           },
           {
@@ -185,20 +164,43 @@
             }
           },
           {
-            "id": "a63284df21955211",
+            "id": "20b3255d2fc69741",
             "type": "leaf",
             "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "type": "backlink",
+              "state": {
+                "file": "資料結構/樹.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "樹 的反向連結"
+            }
+          },
+          {
+            "id": "1d5d63fd2c7c6c01",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "資料結構/樹.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "樹 的對外連結"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 366.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -219,18 +221,36 @@
   },
   "active": "28d5cba50d053357",
   "lastOpenFiles": [
-    "資料結構/鏈式存儲.md",
+    "final_huffman_fix_v2.py",
+    "final_huffman_fix.py",
+    "資料結構/assets/huffman/img_b619eb1bb8.jpg",
+    "資料結構/assets/huffman/img_57f320b3bb.jpg",
+    "fix_huffman_assets_v2.py",
+    "huffman_asset_mapping.json",
+    "fix_huffman_assets.py",
+    "huffman_image_map.json",
+    "資料結構/assets/huffman/unnamed.jpg",
+    "資料結構/assets/huffman/unnamed(5).jpg",
+    "資料結構/assets/huffman/unnamed(4).jpg",
+    "資料結構/assets/huffman/unnamed(3).jpg",
+    "資料結構/assets/huffman/unnamed(2).jpg",
+    "資料結構/assets/huffman/unnamed(1).jpg",
+    "資料結構/assets/huffman/AF2bZyjKMgp8hYtrz8uwlAs5nm2p_PlQ7vIqFy1VAru7NqEk7G.jpg",
+    "資料結構/assets/huffman",
+    "download_huffman_assets.py",
+    "Tags",
     "資料結構/樹.md",
-    "資料結構/assets/鄰接多重表structure.png",
-    "資料結構/assets/MorrisTraversal.html",
+    "fix_huffman.py",
+    "integrate_huffman.py",
+    "huffman_files/unnamed.jpg",
+    "資料結構/資料結構考題.md",
+    "資料結構/鏈式存儲.md",
     "資料結構/assets/MorrisTraversal.html.md",
     "資料結構/線性表-Linear List.md",
     "2024統考真題-16.md",
     "資料結構/數據結構基本概念.md",
     "未命名.md",
     "網路筆記/錯誤考題回顧.md",
-    "資料結構/資料結構考題.md",
-    "未命名.base",
     "conflict-files-obsidian-git.md",
     "未命名.canvas",
     "資料結構/圖.md",
@@ -243,27 +263,10 @@
     "網路筆記/計算機網路的概念.md",
     "網路筆記/資安.md",
     "Excalidraw/Drawing 2025-12-23 02.34.58.excalidraw.md",
-    "Excalidraw",
     "作業系統/文件管理.md",
     "作業系統/設備管理.md",
     "作業系統/進程與線程.md",
     "作業系統/操作系統概念.md",
-    "計算機概論/I O系統.md",
-    "作業系統/assets/VMM.png",
-    "作業系統/assets/image.png",
-    "作業系統/assets/image 9.png",
-    "作業系統/assets/image 8.png",
-    "作業系統/assets/image 72.png",
-    "作業系統/assets/image 71.png",
-    "作業系統/assets/image 70.png",
-    "作業系統/assets/image 7.png",
-    "作業系統/assets/image 69.png",
-    "作業系統/assets",
-    "作業系統/organize_images_os.py",
-    "作業系統/操作系統筆記 246c1f61b25b80da9f95dfecdd9fa5ec_all.csv",
-    "作業系統/操作系統筆記 246c1f61b25b80da9f95dfecdd9fa5ec.csv",
-    "作業系統",
-    "計算機概論/assets",
-    "計算機概論/organize_images_cs.py"
+    "計算機概論/I O系統.md"
   ]
 }
