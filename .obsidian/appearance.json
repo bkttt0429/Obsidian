@@ -3,5 +3,7 @@
   "enabledCssSnippets": [
     "notion-cards",
     "resizable-iframe"
-  ]
+  ],
+  "cssTheme": "Minimal",
+  "textFontFamily": "Microsoft JhengHei"
 }

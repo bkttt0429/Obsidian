@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "資料結構/樹.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -99,8 +99,7 @@
               "title": "Navigator"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
@@ -154,25 +153,6 @@
             }
           },
           {
-            "id": "20b3255d2fc69741",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "資料結構/樹.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "樹 的反向連結"
-            }
-          },
-          {
             "id": "1d5d63fd2c7c6c01",
             "type": "leaf",
             "state": {
@@ -191,7 +171,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 366.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -211,9 +192,10 @@
   },
   "active": "ac790ad87d22fe68",
   "lastOpenFiles": [
+    "資料結構/算法和算法效率的評價.md",
+    "資料結構/樹.md",
     "計算機概論/CPU控制器.md",
     "資料結構/排序.md",
-    "資料結構/樹.md",
     "assign_user_images.py",
     "資料結構/assets/huffman/huffman_04_entropy.png",
     "資料結構/assets/huffman/huffman_03_tree_growth.png",
@@ -256,7 +238,6 @@
     "Excalidraw/Drawing 2025-12-23 02.34.58.excalidraw.md",
     "作業系統/文件管理.md",
     "作業系統/設備管理.md",
-    "作業系統/進程與線程.md",
-    "作業系統/操作系統概念.md"
+    "作業系統/進程與線程.md"
   ]
 }
