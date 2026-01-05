@@ -11,12 +11,14 @@
             "id": "ac790ad87d22fe68",
             "type": "leaf",
             "state": {
-              "type": "mk-space",
+              "type": "markdown",
               "state": {
-                "path": "資料結構"
+                "file": "資料結構/樹.md",
+                "mode": "source",
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "資料結構"
+              "title": "樹"
             }
           }
         ]
