@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Morris Traversal Visualizer</title>
+    <!-- 引入 React 與 Babel -->
+    <script src="https://unpkg.com/react@18/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <!-- 引入 Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- 引入 Lucide 圖示 -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-transparent">
+    <div id="root"></div>
+
+    <script type="text/babel">
+        const { useState, useEffect, useRef } = React;
+
+        // 定義二元樹節點結構
+        const initialTree = {
+            id: '1', val: 1,
+            left: {
+                id: '2', val: 2,
+                left: { id: '4', val: 4, left: null, right: null },
+                right: { id: '5', val: 5, left: null, right: null }
+            },
+            right: {
+                id: '3', val: 3,
+                left: null,
+                right: { id: '6', val: 6, left: null, right: null }
+            }
+        };
+
+        const App = () => {
+            const [currentId, setCurrentId] = useState(null);
+            const [preId, setPreId] = useState(null);
+            const [threads, setThreads] = useState([]);
+            const [traversalResult, setTraversalResult] = useState([]);
+            const [steps, setSteps] = useState([]);
+            const [currentStepIndex, setCurrentStepIndex] = useState(-1);
+            const [isPlaying, setIsPlaying] = useState(false);
+            const timerRef = useRef(null);
+
+            useEffect(() => {
+                const s = [];
+                const res = [];
+                const currentThreads = [];
+                
+                const findNodeById = (root, id) => {
+                    if (!root) return null;
+                    if (root.id === id) return root;
+                    return findNodeById(root.left, id) || findNodeById(root.right, id);
+                };
+
+                const getRight = (node, ts) => {
+                    const thread = ts.find(t => t.from === node.id);
+                    if (thread) return findNodeById(initialTree, thread.to);
+                    return node.right;
+                };
+
+                let c = initialTree;
+                let curRes = [];
+                let curTs = [];
+
+                while (c !== null) {
+                    s.push({ type: 'check', curr: c.id, pre: null, threads: [...curTs], res: [...curRes], msg: `檢查節點 ${c.val}` });
+                    
+                    if (c.left === null) {
+                        curRes.push(c.val);
+                        s.push({ type: 'visit', curr: c.id, pre: null, threads: [...curTs], res: [...curRes], msg: `無左子樹，訪問 ${c.val} 並移至右側` });
+                        c = getRight(c, curTs);
+                    } else {
+                        let pre = c.left;
+                        while (getRight(pre, curTs) !== null && getRight(pre, curTs).id !== c.id) {
+                            pre = getRight(pre, curTs);
+                        }
+
+                        if (getRight(pre, curTs) === null) {
+                            curTs.push({ from: pre.id, to: c.id });
+                            s.push({ type: 'add', curr: c.id, pre: pre.id, threads: [...curTs], res: [...curRes], msg: `建立線索：${pre.val} -> ${c.val}` });
+                            c = c.left;
+                        } else {
+                            curTs = curTs.filter(t => !(t.from === pre.id && t.to === c.id));
+                            curRes.push(c.val);
+                            s.push({ type: 'remove', curr: c.id, pre: pre.id, threads: [...curTs], res: [...curRes], msg: `斷開線索，訪問 ${c.val} 並移至右側` });
+                            c = getRight(c, curTs);
+                        }
+                    }
+                }
+                s.push({ type: 'done', curr: null, pre: null, threads: [], res: [...curRes], msg: "遍歷完成！" });
+                setSteps(s);
+            }, []);
+
+            const handleNext = () => {
+                if (currentStepIndex < steps.length - 1) {
+                    const nextIdx = currentStepIndex + 1;
+                    setCurrentStepIndex(nextIdx);
+                    const step = steps[nextIdx];
+                    setCurrentId(step.curr);
+                    setPreId(step.pre);
+                    setThreads(step.threads);
+                    setTraversalResult(step.res);
+                } else {
+                    setIsPlaying(false);
+                }
+            };
+
+            useEffect(() => {
+                if (isPlaying) {
+                    timerRef.current = setTimeout(handleNext, 800);
+                } else {
+                    clearTimeout(timerRef.current);
+                }
+                return () => clearTimeout(timerRef.current);
+            }, [isPlaying, currentStepIndex]);
+
+            const renderNode = (node, x, y, dx) => {
+                if (!node) return null;
+                const isCurr = currentId === node.id;
+                const isPre = preId === node.id;
+                return (
+                    <g key={node.id}>
+                        {node.left && <line x1={x} y1={y} x2={x-dx} y2={y+60} stroke="#cbd5e1" strokeWidth="2" />}
+                        {node.right && <line x1={x} y1={y} x2={x+dx} y2={y+60} stroke="#cbd5e1" strokeWidth="2" />}
+                        <circle cx={x} cy={y} r="18" fill={isCurr ? '#3b82f6' : (isPre ? '#f59e0b' : '#fff')} stroke="#64748b" strokeWidth="2" />
+                        <text x={x} y={y} dy="5" textAnchor="middle" className="text-xs font-bold" fill={isCurr || isPre ? 'white' : '#334155'}>{node.val}</text>
+                        {renderNode(node.left, x-dx, y+60, dx/1.8)}
+                        {renderNode(node.right, x+dx, y+60, dx/1.8)}
+                    </g>
+                );
+            };
+
+            return (
+                <div className="p-4 max-w-2xl mx-auto bg-white rounded-xl shadow-lg border border-gray-200 mt-4">
+                    <div className="flex justify-between items-center mb-4">
+                        <h2 className="text-lg font-bold text-gray-800">Morris Traversal 視覺化</h2>
+                        <div className="flex gap-2">
+                            <button onClick={() => setIsPlaying(!isPlaying)} className="p-2 bg-blue-500 text-white rounded hover:bg-blue-600">
+                                {isPlaying ? '暫停' : '播放'}
+                            </button>
+                            <button onClick={handleNext} className="p-2 bg-gray-200 rounded hover:bg-gray-300">下一步</button>
+                        </div>
+                    </div>
+                    
+                    <div className="flex justify-center border-b pb-4 mb-4">
+                        <svg width="360" height="240" viewBox="0 0 400 300">
+                            {renderNode(initialTree, 200, 40, 100)}
+                            {threads.map((t, i) => (
+                                <path key={i} d="M 200 40 Q 300 150 200 200" fill="none" stroke="#10b981" strokeWidth="2" strokeDasharray="4" className="opacity-50" />
+                            ))}
+                        </svg>
+                    </div>
+
+                    <div className="text-sm bg-gray-900 text-green-400 p-3 rounded font-mono mb-4 h-16 overflow-hidden">
+                        {currentStepIndex >= 0 ? steps[currentStepIndex].msg : '點擊開始模擬...'}
+                    </div>
+
+                    <div className="text-sm">
+                        <span className="font-bold">結果：</span>
+                        <span className="text-blue-600 font-bold ml-2">[{traversalResult.join(', ')}]</span>
+                    </div>
+                </div>
+            );
+        };
+
+        const root = ReactDOM.createRoot(document.getElementById('root'));
+        root.render(<App />);
+    </script>
+</body>
+</html>
