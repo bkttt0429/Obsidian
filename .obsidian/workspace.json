@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "7f9646cdb0679613",
+        "id": "1775c857551ba9ad",
         "type": "tabs",
         "children": [
           {
-            "id": "ac790ad87d22fe68",
+            "id": "758406443541b367",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "資料結構/樹.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "樹"
+              "title": "Home"
             }
           }
         ]
@@ -40,13 +40,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "資料結構/樹.md",
+                "file": "Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "樹 的大綱"
+              "title": "Home 的大綱"
             }
           },
           {
@@ -90,7 +90,7 @@
             }
           },
           {
-            "id": "f27da4e3c40db911",
+            "id": "67212ac838480372",
             "type": "leaf",
             "state": {
               "type": "mk-path-view",
@@ -99,7 +99,8 @@
               "title": "Navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -158,12 +159,31 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "資料結構/樹.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "樹 的對外連結"
+              "title": "Home 的對外連結"
+            }
+          },
+          {
+            "id": "46de8f58da329de5",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Home.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Home 的反向連結"
             }
           }
         ],
@@ -176,8 +196,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
       "templates:插入模板": true,
@@ -187,13 +205,17 @@
       "obsidian-git:Open Git source control": false,
       "smart-composer:Open smart composer": false,
       "markdown-importer:開啟 Markdown 格式轉換器": true,
-      "command-palette:開啟命令面板": false
+      "command-palette:開啟命令面板": false,
+      "digitalgarden:Digital Garden Publication Center": false,
+      "homepage:Open homepage": false
     }
   },
-  "active": "ac790ad87d22fe68",
+  "active": "758406443541b367",
   "lastOpenFiles": [
-    "資料結構/算法和算法效率的評價.md",
+    "Tags",
     "資料結構/樹.md",
+    "Home.md",
+    "資料結構/算法和算法效率的評價.md",
     "計算機概論/CPU控制器.md",
     "資料結構/排序.md",
     "assign_user_images.py",
@@ -236,8 +258,6 @@
     "網路筆記/計算機網路的概念.md",
     "網路筆記/資安.md",
     "Excalidraw/Drawing 2025-12-23 02.34.58.excalidraw.md",
-    "作業系統/文件管理.md",
-    "作業系統/設備管理.md",
-    "作業系統/進程與線程.md"
+    "作業系統/文件管理.md"
   ]
 }
